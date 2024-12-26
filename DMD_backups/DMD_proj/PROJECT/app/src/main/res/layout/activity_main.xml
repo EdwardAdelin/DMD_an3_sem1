@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eZmoney" />
+
+    <Button
+        android:id="@+id/recurent_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recurent Expenses" />
+
+    <Button
+        android:id="@+id/buttonOpenEditor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/exchange_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCHANGE RATES" />
+
+    <Button
+        android:id="@+id/connection_status_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Connection Status" />
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFO" />
+
+</LinearLayout>

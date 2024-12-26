@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eZmoney" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recurent Expenses" />
+
+    <EditText
+        android:id="@+id/payment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment Name" />
+
+    <EditText
+        android:id="@+id/payment_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment Value"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/add_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Payment" />
+
+    <TextView
+        android:id="@+id/total_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Value: 0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
